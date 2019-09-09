@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F4D03F</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+
+    <color name="contents_text">#ff000000</color>
+    <color name="encode_view">#ffffffff</color>
+    <color name="possible_result_points">#F4D03F</color>
+    <color name="result_minor_text">#ffc0c0c0</color>
+    <color name="result_points">#c099cc00</color>
+    <color name="result_text">#ffffffff</color>
+    <color name="result_view">#b0000000</color>
+    <color name="status_text">#ffffffff</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_laser">#ffcc0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="status_top_text_background">#ffffffff</color>
+    <color name="translation_text">#00ccff</color>
+    <color name="viewfinder_corners">#ffffffff</color>
+    <color name="viewfinder_frame">#ffd6d6d6</color>
+
+    <color name="textColorHint">#ff0000</color>
+    <color name="light_grey">#333333</color>
+    <color name="light_yellow">#fffcce</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="green">#01DF01</color>
+    <color name="orange">#bb6008</color>
+    <color name="grayColor">#5e606c</color>
+
+</resources>
