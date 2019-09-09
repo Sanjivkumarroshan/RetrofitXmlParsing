@@ -23,7 +23,7 @@ public class ServiceGenerator {
     private static Retrofit retrofit = builder.build();
 
     public static <S> S createService(Class<S> serviceClass) {
-        return createService(serviceClass, "e_TurboData_1236", "GuY;)8pW");
+        return createService(serviceClass, "", "");
     }
 
     public static <S> S createService(

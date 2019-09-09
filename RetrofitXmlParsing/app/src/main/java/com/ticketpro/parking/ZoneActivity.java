@@ -149,7 +149,7 @@ public class ZoneActivity extends AppCompatActivity {
                 }
             });
             progressDialog.show();
-            ApiRequest service = ServiceGenerator.createService(ApiRequest.class,"e_TurboData_1236","GuY;)8pW");
+            ApiRequest service = ServiceGenerator.createService(ApiRequest.class,"","");
             service.getZone().enqueue(new Callback<ArrayOfEnforcementZone>() {
                 @Override
                 public void onResponse(Call<ArrayOfEnforcementZone> call, Response<ArrayOfEnforcementZone> response) {
@@ -276,8 +276,8 @@ public class ZoneActivity extends AppCompatActivity {
                 });
                 progressDialog.show();
 
-                String url = "https://preproduction-svc-cwo2.calesystems.com/cwo2exportservice/Enforcement/1/EnforcementService.svc/getspaceenforcementzonespaces/"+name;
-                ApiRequest service = ServiceGenerator.createService(ApiRequest.class, "e_TurboData_1236", "GuY;)8pW");
+                String url = "";
+                ApiRequest service = ServiceGenerator.createService(ApiRequest.class, "", "");
                 service._getZoneSpace(url).enqueue(new Callback<ArrayOfParkingSpaces>() {
 
                     @Override
@@ -352,8 +352,8 @@ public class ZoneActivity extends AppCompatActivity {
             progressDialog.show();
 
             // String url = "https://preproduction-svc-cwo2.calesystems.com/cwo2exportservice/Enforcement/1/EnforcementService.svc/get/" + s + "/5";
-            String url = "https://preproduction-svc-cwo2.calesystems.com/cwo2exportservice/Enforcement/5/EnforcementService.svc/getallactivepurchases/"+s+"/0";
-            ApiRequest service = ServiceGenerator.createService(ApiRequest.class, "e_TurboData_1236", "GuY;)8pW");
+            String url = "";
+            ApiRequest service = ServiceGenerator.createService(ApiRequest.class, "", "");
             service._validateParking(url).enqueue(new Callback<ArrayOfValidParkingData>() {
 
                 @Override

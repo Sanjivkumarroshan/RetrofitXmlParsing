@@ -73,9 +73,8 @@ public class PlateSearch extends AppCompatActivity implements View.OnClickListen
             });
             progressDialog.show();
 
-           // String url = "https://preproduction-svc-cwo2.calesystems.com/cwo2exportservice/Enforcement/1/EnforcementService.svc/get/" + s + "/5";
-            String url = "https://preproduction-svc-cwo2.calesystems.com/cwo2exportservice/Enforcement/5/EnforcementService.svc/getallactivepurchases/Turbo A/5";
-            ApiRequest service = ServiceGenerator.createService(ApiRequest.class, "e_TurboData_1236", "GuY;)8pW");
+            String url = "";
+            ApiRequest service = ServiceGenerator.createService(ApiRequest.class, "", "");
             service._validateParking(url).enqueue(new Callback<ArrayOfValidParkingData>() {
 
                 @Override
@@ -163,8 +162,8 @@ public class PlateSearch extends AppCompatActivity implements View.OnClickListen
             });
             progressDialog.show();
 
-            String url = "https://preproduction-svc-cwo2.calesystems.com/cwo2exportservice/Enforcement/1/EnforcementService.svc/get/"+s+"/5";
-            ApiRequest service = ServiceGenerator.createService(ApiRequest.class, "e_TurboData_1236", "GuY;)8pW");
+            String url = "";
+            ApiRequest service = ServiceGenerator.createService(ApiRequest.class, "", "");
             service._serchPlate(url).enqueue(new Callback<ArrayOfPlaveSearch>() {
 
                 @Override
